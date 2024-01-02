@@ -3,7 +3,15 @@ import { useState } from "react";
 import { Drawer, DrawerButton } from "./Drawer";
 import { CustomLink, MotionA } from "./CustomLink";
 import useThemeSwitcher from "@/components/Hook/useThemeSwitcher";
-import { GithubIcon, LinkedInIcon, Mailbox, Instagrame, MoonIcon, SunIcon } from "../Icons";
+import {
+	GithubIcon,
+	Instagrame,
+	LinkedInIcon,
+	Mailbox,
+	MoonIcon,
+	SunIcon,
+	Watsapp,
+} from "../Icons";
 
 const NavBar = () => {
 	const [mode, setMode] = useThemeSwitcher();
@@ -17,7 +25,7 @@ const NavBar = () => {
 						lg:px-16 md:px-12 sm:px-8"
 		>
 			{/* DRAWER */}
-			{/* ============ */}
+			{/* ======= */}
 			<DrawerButton drawerHandle={drawerHandle} isOpen={isOpen} />
 			{isOpen ? <Drawer mode={mode} setMode={setMode} drawerHandle={drawerHandle} /> : null}
 			{/*  NORMAL NAVBAR */}
@@ -26,21 +34,22 @@ const NavBar = () => {
 				{/* MAIN LINKS OF NAVBAR */}
 				{/* ==================== */}
 				<nav>
-					<CustomLink href="/" title={"Home"} className="mr-4" />
-					<CustomLink href="/about" title={"About"} className="mx-4" />
-					<CustomLink href="/projects" title={"Projects"} className="mx-4" />
-					<CustomLink href="/articles" title={"Articles"} className="ml-4" />
+					<CustomLink href="/" title={"Home"} className="mr-2" />
+					<CustomLink href="/about" title={"About"} className="mx-2" />
+					<CustomLink href="/projects" title={"Projects"} className="mx-2" />
+					<CustomLink href="/others" title={"Others"} className="ml-2" />
 				</nav>
 				{/* ICONS OF NAVBAR */}
 				{/* =============== */}
 				<nav className="flex items-center justify-center flex-wrap">
 					<MotionA
-						href="https://www.instagram.com/crazy_hami_"
-						text={<Instagrame />}
 						className="ml-0"
+						href="mailto:gyromaster55@gmail.com"
+						text={<Mailbox />}
 					/>
-					<MotionA href="mailto:gyromaster55@gmail.com" text={<Mailbox />} />
 					<MotionA href="https://github.com/hamzanafasat" text={<GithubIcon />} />
+					{/* <MotionA href="https://wa.me/03064155025" text={<Watsapp />} /> */}
+					<MotionA href="https://www.instagram.com/crazy_hami_" text={<Instagrame />} />
 					<MotionA
 						href="https://www.linkedin.com/in/hamza-nafasat-9b0b87299/"
 						text={<LinkedInIcon />}
@@ -49,7 +58,7 @@ const NavBar = () => {
 					{/* ========================== */}
 					<button
 						onClick={() => setMode(mode === "light" ? "dark" : "light")}
-						className={`w-6 ml-3 flex items-center justify-center rounded-full p-1  ${
+						className={`w-8 ml-3 flex items-center justify-center rounded-full p-1  ${
 							mode === "light" ? "bg-dark text-light" : "bg-light text-dark"
 						}`}
 					>
@@ -59,8 +68,8 @@ const NavBar = () => {
 			</div>
 			{/* LOGO */}
 			{/* ==== */}
-			<div className="absolute z-10 left-[50%] top-2 translate-x-[-50%] lg:-right-1 lg:top-4 lg:left-auto">
-				<Logo text={"HN"} />
+			<div className="absolute z-10 left-[50%] top-0 translate-x-[-50%] lg:-right-10 lg:top-2 lg:left-auto ">
+				<Logo />
 			</div>
 		</header>
 	);

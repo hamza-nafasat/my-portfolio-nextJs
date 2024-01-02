@@ -36,11 +36,11 @@ export default function Home() {
 							{/* PROFILE TEXT  */}
 							{/* ============== */}
 							<AnimatedText
-								text={"Turning Vision Into Reality With Code Implementation"}
-								className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl
-								sm:!text-3xl"
+								text={"Turning Your Vision into Reality With Code"}
+								className="!text-6xl  xl:!text-4xl lg:!text-5xl md:!text-5xl
+								sm:!text-3xl xs:!text-2xl !text-left lg:!text-center xs:!text-left "
 							/>
-							<p className="my-4 text-base font-medium lg:text-center md:text-sm sm:text-xs">
+							<p className="my-4 text-base font-medium lg:text-center md:text-sm sm:text-xs !text-justify">
 								As a full-stack developer, I turn ideas into great websites. Like
 								painting with code, I'm patient and creative. I handle everything to
 								make websites work well and help people. My goal is to make things

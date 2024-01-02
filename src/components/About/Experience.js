@@ -31,7 +31,7 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
 				<span className="capitalize font-medium text-dark/75 dark:text-light/75 xs:text-sm">
 					{time} | {address}
 				</span>
-				<p className="font-medium w-full md:text-sm">{work}</p>
+				<p className="font-medium w-full md:text-sm text-left">{work}</p>
 			</motion.div>
 		</li>
 	);
@@ -45,7 +45,7 @@ const Experience = () => {
 		offset: ["start end", "center start"],
 	});
 	return (
-		<div className="my-64">
+		<div className="my-40 md:my-20 md:mb-10">
 			<h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16">
 				Experience
 			</h2>

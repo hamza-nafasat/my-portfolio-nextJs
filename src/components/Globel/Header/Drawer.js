@@ -8,6 +8,7 @@ import {
 	SunIcon,
 	TwitterIcon,
 	Mailbox,
+	Watsapp,
 } from "../Icons";
 
 export const Drawer = ({ mode, setMode, drawerHandle }) => {
@@ -25,27 +26,23 @@ export const Drawer = ({ mode, setMode, drawerHandle }) => {
 				<CustomMobileLink href="/" title={"Home"} toggel={drawerHandle} />
 				<CustomMobileLink href="/about" title={"About"} toggel={drawerHandle} />
 				<CustomMobileLink href="/projects" title={"Projects"} toggel={drawerHandle} />
-				<CustomMobileLink href="/articles" title={"Articles"} toggel={drawerHandle} />
+				<CustomMobileLink href="/others" title={"Others"} toggel={drawerHandle} />
 			</nav>
 			{/* ICONS OF NAVBAR */}
 			{/* =============== */}
 			<nav className="flex items-center justify-center flex-wrap mt-4">
-				<MotionA
-					className="ml-0"
-					text={<Instagrame />}
-					href="https://www.instagram.com/crazy_hami_"
-				/>
+				<MotionA className="ml-0" href="mailto:gyromaster55@gmail.com" text={<Mailbox />} />
 				<MotionA href="https://github.com/hamzanafasat" text={<GithubIcon />} />
+				<MotionA href="https://wa.me/03064155025" text={<Watsapp />} />
 				<MotionA
-					text={<LinkedInIcon />}
 					href="https://www.linkedin.com/in/hamza-nafasat-9b0b87299/"
+					text={<LinkedInIcon />}
 				/>
-				<MotionA href="mailto:gyromaster55@gmail.com" text={<Mailbox />} />
 				{/* LIGHT AND DARK MOOD BUTTON */}
 				{/* ========================== */}
 				<button
 					onClick={() => setMode(mode === "light" ? "dark" : "light")}
-					className={`w-6 ml-3 flex items-center justify-center rounded-full p-1  ${
+					className={`w-8 ml-3 flex items-center justify-center rounded-full p-1  ${
 						mode === "light" ? "bg-light text-dark" : "bg-dark text-light"
 					}`}
 				>
@@ -63,15 +60,15 @@ export const DrawerButton = ({ drawerHandle, isOpen }) => {
 			className="flex-col justify-center items-center hidden lg:flex mt-2"
 		>
 			<span
-				className={`bg-dark dark:bg-light transition-all duration-300 ease-out block h-0.5 w-6 
+				className={`bg-dark dark:bg-light transition-all duration-300 ease-out block h-1 w-6 
                 rounded-none ${isOpen ? "rotate-45 translate-y-1" : "-translate-y-1 "} `}
 			/>
 			<span
-				className={`bg-dark dark:bg-light transition-all duration-300 ease-out block h-0.5 w-6 
-                rounded-none my-0.5 ${isOpen ? "opacity-0" : "opacity-100"} `}
+				className={`bg-dark dark:bg-light transition-all duration-300 ease-out block h-1 w-6 
+                rounded-none my-['1px'] ${isOpen ? "opacity-0" : "opacity-100"} `}
 			/>
 			<span
-				className={`bg-dark dark:bg-light transition-all duration-300 ease-out block h-0.5 w-6 
+				className={`bg-dark dark:bg-light transition-all duration-300 ease-out block h-1 w-6 
                 rounded-none ${isOpen ? "-rotate-45 -translate-y-1" : "translate-y-1 "}`}
 			/>
 		</button>

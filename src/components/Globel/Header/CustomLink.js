@@ -47,7 +47,7 @@ export const MotionA = ({ href = "", className = "", text = "" }) => {
 			target="_blank"
 			whileHover={{ y: -4 }}
 			whileTap={{ scale: 0.9 }}
-			className={`w-6 mx-3 rounded-full sm:mx-1 ${className}`}
+			className={`w-8 mx-3.5 rounded-full sm:mx-1 ${className}`}
 		>
 			{text}
 		</motion.a>

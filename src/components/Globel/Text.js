@@ -2,14 +2,17 @@ const IndexPagePic =
 	"https://res.cloudinary.com/hamzanafasat/image/upload/v1704068266/portfolio%20website/u8tenv9sg4vmxxt6a9xz.png";
 const AboutPageDp =
 	"https://res.cloudinary.com/hamzanafasat/image/upload/v1704067146/portfolio%20website/rh73wahkxdruyvb12jzr.jpg";
+import logo from "../../../public/logo.png";
 
-export { IndexPagePic, AboutPageDp };
+export { IndexPagePic, AboutPageDp, logo };
 
 export const SIMPLEOVERVIEW = [
-	{ text: "Satisfied Clients", num: 20 },
-	{ text: "Projects Completed", num: 10 },
+	{ text: "Projects Completed", num: 13 },
+	{ text: "Satisfied Clients", num: 5 },
 	{ text: "Years Of Experience", num: 1 },
 ];
+// EDUCATION AND EXPERIENCES
+// =========================
 export const EXPERIENCES = [
 	{
 		position: "Software Engineer",
@@ -19,6 +22,7 @@ export const EXPERIENCES = [
 		address: "Mountain View CA",
 		work: "Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization",
 	},
+
 	{
 		position: "Teaching Assistant",
 		company: "Facebook",
@@ -46,33 +50,35 @@ export const EXPERIENCES = [
 ];
 export const EDUCATIONLIST = [
 	{
-		type: "Bachelor Of Science In Computer Science",
-		time: "2016-2020",
-		place: "Massachusetts Institute Of Technology (MIT)",
-		info: "Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial",
+		type: "Board of Intermediate and Secondary Education",
+		time: "2020",
+		place: "Private Candidate",
+		info: "Demonstrated academic proficiency by successfully completing the Intermediate examination as a private candidate from the esteemed Gujranwala Board, showcasing dedication and self-motivation in the pursuit of education",
 	},
 	{
-		type: "Master Of Computer Science",
-		time: "2020-2022",
-		place: "Stanford University",
-		info: "Completed a master's project on deep learning, developing a new neural network architecture for natural language understanding",
+		type: "Wafaq ul Madaris Al-Arabia,Gujranwala",
+		time: "2013 - 2019",
+		place: "Islamic University Mukaram Mosque, Gujranwala",
+		info: "The Shahadat ul Almia from Wafaq ul Madaris Al Arabia is acknowledged by the Higher Education Commission (HEC) in Pakistan. It holds equivalence to M.A. Arabic and Islamic Studies, validated by the Lahore High Court decision in 139-L of 2012.",
 	},
 	{
-		type: "Online Coursework",
-		time: "2016-2020",
-		place: "Coursera And EdX",
-		info: "Completed coursework in advanced topics such as Reinforcement Learning, Computer Vision, and Machine Learning Engineering",
+		type: "Online Courses",
+		time: "2020",
+		place: "Youtube or Google tutorials",
+		info: "Completing a self-learning journey, mastering advanced technologies, including the entire MERN stack, along with SCSS and TypeScript, demonstrates my adaptability to the dynamic tech landscape.",
 	},
 ];
+// PROJECTS
+// ========
 export const FEATUREDPROJECTDATA = [
 	{
 		type: "Featured Project",
-		title: "Crypto Screener Application",
-		link: "/",
+		title: "CodeNinja MERN Website",
+		link: "https://codeninja-mern.vercel.app",
 		github: "/",
 		image: "https://res.cloudinary.com/hamzanafasat/image/upload/v1704068396/portfolio%20website/uwah9dcw4n3wnoudtc0i.jpg",
 		summery:
-			"A feature-rich Crypto Screener App using React, Tailwind CSS, Context API,  React Router and Recharts.It shows detail regarding almost all the cryptocurrency.You can easily convert the price in your ocal currency.",
+			"Built a secure MERN course purchasing site with React, Chakra UI, MongoDB, Multer, Cloudinary, Chart.js, Toolkit, Razorpay for payments, and React Hot Toast for styling.",
 	},
 	{
 		type: "Featured Project",
@@ -99,42 +105,18 @@ export const SMAILLPROJECTDATA = [
 		github: "/",
 		image: "https://res.cloudinary.com/hamzanafasat/image/upload/v1704068409/portfolio%20website/wcsealnghyrskxruyftq.jpg",
 	},
-];
-export const FEATUREDARTICLEDATA = [
 	{
-		title: "Creating Stunning Loading Screens In React: Build 3 Types Of Loading Screens",
-		time: "9 min read",
+		type: "Featured Project",
+		title: "Crypto Screener Application",
 		link: "/",
-		image: "https://res.cloudinary.com/hamzanafasat/image/upload/v1704068396/portfolio%20website/uwah9dcw4n3wnoudtc0i.jpg",
-		summery:
-			"Build A Custom Pagination Component In Reactjs From Scratch Learn how to build a custom pagination component in ReactJS from scratch.Follow this step-by-step guide to integrate Pagination component in your ReactJS project",
-	},
-	{
-		title: "Creating Stunning Loading Screens In React: Build 3 Types Of Loading Screens",
-		time: "9 min read",
-		link: "/",
-		image: "https://res.cloudinary.com/hamzanafasat/image/upload/v1704068396/portfolio%20website/uwah9dcw4n3wnoudtc0i.jpg",
-		summery:
-			"Build A Custom Pagination Component In Reactjs From Scratch Learn how to build a custom pagination component in ReactJS from scratch.Follow this step-by-step guide to integrate Pagination component in your ReactJS project",
-	},
-];
-export const SMAILLARTICLEDATA = [
-	{
+		github: "/",
 		image: "https://res.cloudinary.com/hamzanafasat/image/upload/v1704068409/portfolio%20website/wcsealnghyrskxruyftq.jpg",
-		title: "Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And ErrorHandling",
-		date: "March 23,2023",
-		link: "/",
 	},
 	{
-		image: "https://res.cloudinary.com/hamzanafasat/image/upload/v1704068409/portfolio%20website/wcsealnghyrskxruyftq.jpg",
-		title: "Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And ErrorHandling",
-		date: "March 23,2023",
+		type: "Featured Project",
+		title: "Crypto Screener Application",
 		link: "/",
-	},
-	{
+		github: "/",
 		image: "https://res.cloudinary.com/hamzanafasat/image/upload/v1704068409/portfolio%20website/wcsealnghyrskxruyftq.jpg",
-		title: "Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And ErrorHandling",
-		date: "March 23,2023",
-		link: "/",
 	},
 ];

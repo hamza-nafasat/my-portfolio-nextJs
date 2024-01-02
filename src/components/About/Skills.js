@@ -20,7 +20,9 @@ const SkillWraper = ({ name, x, y }) => {
 const Skills = () => {
 	return (
 		<>
-			<h2 className="font-bold text-8xl mt-64 mb-28 md:mb-8 w-full text-center md:text-6xl md:mt-32">Skills</h2>
+			<h2 className="font-bold text-8xl mt-32 md:mt-20 mb-28 md:mb-8 w-full text-center md:text-6xl">
+				Skills
+			</h2>
 			<div
 				className="w-full h-screen relative flex items-center justify-center rounded-full bg-circularLight 
 				dark:bg-circularDark lg:h-[80vh] sm:h-[60vh] xs:h-[50vh] lg:bg-circularLightLg lg:dark:bg-circularDarkLg 

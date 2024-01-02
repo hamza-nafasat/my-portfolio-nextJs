@@ -4,7 +4,7 @@ import { useEffect, useRef } from "react";
 import Skills from "@/components/About/Skills";
 import Layout from "@/components/Globel/Layout";
 import Education from "@/components/About/Education";
-import Experience from "@/components/About/Experience";
+// import Experience from "@/components/About/Experience";
 import { SIMPLEOVERVIEW } from "@/components/Globel/Text";
 import AnimatedText from "@/components/Globel/AnimatedText";
 import TransitionEffect from "@/components/Globel/TransitionEffect";
@@ -40,10 +40,10 @@ const about = () => {
 			</Head>
 			<TransitionEffect />
 			<main className="flex w-full flex-col items-center justify-center dark:text-light">
-				<Layout classname="pt-16 lg:px-8">
+				<Layout classname="pt-0 xl:pt-0 lg:pt-0 md:pt-0 sm:pt-0">
 					<AnimatedText
-						text={"Discover the Story"}
-						className="!mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:!mb-8"
+						text={"My Journey"}
+						className="!mb-16 lg:!text-7xl sm:!text-6xl xs:!text-5xl sm:!mb-4"
 					/>
 					<div className="grid w-full grid-cols-8 gap-16 sm:gap-8 ">
 						{/* PROFILE TEXT  */}
@@ -116,7 +116,7 @@ const about = () => {
 					{/* OTHER DETAILS  */}
 					{/* ============== */}
 					<Skills />
-					<Experience />
+					{/* <Experience /> */}
 					<Education />
 				</Layout>
 			</main>
