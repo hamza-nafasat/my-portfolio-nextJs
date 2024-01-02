@@ -3,15 +3,7 @@ import { useState } from "react";
 import { Drawer, DrawerButton } from "./Drawer";
 import { CustomLink, MotionA } from "./CustomLink";
 import useThemeSwitcher from "@/components/Hook/useThemeSwitcher";
-import {
-	GithubIcon,
-	Instagrame,
-	LinkedInIcon,
-	Mailbox,
-	MoonIcon,
-	SunIcon,
-	Watsapp,
-} from "../Icons";
+import { GithubIcon, Instagrame, LinkedInIcon, Mailbox, MoonIcon, SunIcon } from "../Icons";
 
 const NavBar = () => {
 	const [mode, setMode] = useThemeSwitcher();
@@ -48,7 +40,6 @@ const NavBar = () => {
 						text={<Mailbox />}
 					/>
 					<MotionA href="https://github.com/hamzanafasat" text={<GithubIcon />} />
-					{/* <MotionA href="https://wa.me/03064155025" text={<Watsapp />} /> */}
 					<MotionA href="https://www.instagram.com/crazy_hami_" text={<Instagrame />} />
 					<MotionA
 						href="https://www.linkedin.com/in/hamza-nafasat-9b0b87299/"

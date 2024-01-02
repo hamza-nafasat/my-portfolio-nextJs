@@ -57,7 +57,7 @@ export const EDUCATIONLIST = [
 	},
 	{
 		type: "Wafaq ul Madaris Al-Arabia,Gujranwala",
-		time: "2013 - 2019",
+		time: "2019",
 		place: "Islamic University Mukaram Mosque, Gujranwala",
 		info: "The Shahadat ul Almia from Wafaq ul Madaris Al Arabia is acknowledged by the Higher Education Commission (HEC) in Pakistan. It holds equivalence to M.A. Arabic and Islamic Studies, validated by the Lahore High Court decision in 139-L of 2012.",
 	},
