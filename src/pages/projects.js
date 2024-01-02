@@ -9,7 +9,7 @@ const projects = () => {
 	return (
 		<>
 			<Head>
-				<title>Projects</title>
+				<title>Portfoli | Projects</title>
 				<meta name="description" content="the page about hamzanafasat's projects" />
 			</Head>
 			<TransitionEffect />

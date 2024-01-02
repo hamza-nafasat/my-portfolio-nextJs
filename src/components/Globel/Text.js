@@ -72,51 +72,35 @@ export const EDUCATIONLIST = [
 // ========
 export const FEATUREDPROJECTDATA = [
 	{
-		type: "Featured Project",
-		title: "CodeNinja MERN Website",
+		type: "MERN Stack Site",
+		title: "CodeNinja",
 		link: "https://codeninja-mern.vercel.app",
-		github: "/",
+		github: "https://github.com/hamzanafasat/codeninja-mern-frontend",
 		image: "https://res.cloudinary.com/hamzanafasat/image/upload/v1704068396/portfolio%20website/uwah9dcw4n3wnoudtc0i.jpg",
 		summery:
 			"Built a secure MERN course purchasing site with React, Chakra UI, MongoDB, Multer, Cloudinary, Chart.js, Toolkit, Razorpay for payments, and React Hot Toast for styling.",
 	},
-	{
-		type: "Featured Project",
-		title: "Crypto Screener Application",
-		link: "/",
-		github: "/",
-		image: "https://res.cloudinary.com/hamzanafasat/image/upload/v1704068396/portfolio%20website/uwah9dcw4n3wnoudtc0i.jpg",
-		summery:
-			"A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts.It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your ocal currency.",
-	},
 ];
 export const SMAILLPROJECTDATA = [
 	{
-		type: "Featured Project",
-		title: "Crypto Screener Application",
-		link: "/",
-		github: "/",
+		type: "Static Landing Page",
+		title: "Barber Shop",
+		link: "https://barber-website-static.vercel.app",
+		github: "https://github.com/hamzanafasat/barber-website-static",
 		image: "https://res.cloudinary.com/hamzanafasat/image/upload/v1704068409/portfolio%20website/wcsealnghyrskxruyftq.jpg",
 	},
 	{
-		type: "Featured Project",
-		title: "Crypto Screener Application",
-		link: "/",
-		github: "/",
+		type: "Biginers React App",
+		title: "Todo List",
+		link: "https://biginer-todo-list.vercel.app",
+		github: "https://github.com/hamzanafasat/todo-list-reactjs",
 		image: "https://res.cloudinary.com/hamzanafasat/image/upload/v1704068409/portfolio%20website/wcsealnghyrskxruyftq.jpg",
 	},
 	{
-		type: "Featured Project",
-		title: "Crypto Screener Application",
-		link: "/",
-		github: "/",
-		image: "https://res.cloudinary.com/hamzanafasat/image/upload/v1704068409/portfolio%20website/wcsealnghyrskxruyftq.jpg",
-	},
-	{
-		type: "Featured Project",
-		title: "Crypto Screener Application",
-		link: "/",
-		github: "/",
+		type: "React Practice App",
+		title: "Bloging Website",
+		link: "https://blooging-webpage-react.vercel.app",
+		github: "https://github.com/hamzanafasat/blooging-webpage-react",
 		image: "https://res.cloudinary.com/hamzanafasat/image/upload/v1704068409/portfolio%20website/wcsealnghyrskxruyftq.jpg",
 	},
 ];

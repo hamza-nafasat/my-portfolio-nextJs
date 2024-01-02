@@ -10,7 +10,7 @@ const articles = () => {
 	return (
 		<>
 			<Head>
-				<title>Small Projects</title>
+				<title>Portfoli | Projects</title>
 				<meta name="description" content="the page about hamzanafasat" />
 			</Head>
 			<TransitionEffect />

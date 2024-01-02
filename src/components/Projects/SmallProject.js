@@ -59,7 +59,7 @@ const SmallProject = ({ type, title, image, link = "", github = "" }) => {
 				{/* ============== */}
 				<div className="flex mt-2 w-full items-center justify-between ">
 					<MotionLink
-						href={github}
+						href={link}
 						target="_blank"
 						className="p-2 font-semibold text-lg underline md:text-base sm:text-lg xs:text-base"
 						whileTap={{ scale: 0.9 }}
