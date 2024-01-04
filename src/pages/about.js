@@ -4,12 +4,11 @@ import { useEffect, useRef } from "react";
 import Skills from "@/components/About/Skills";
 import Layout from "@/components/Globel/Layout";
 import Education from "@/components/About/Education";
-// import Experience from "@/components/About/Experience";
-import { SIMPLEOVERVIEW } from "@/components/Globel/Text";
 import AnimatedText from "@/components/Globel/AnimatedText";
 import TransitionEffect from "@/components/Globel/TransitionEffect";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
-import { AboutPageDp } from "@/components/Globel/Text";
+import { SIMPLEOVERVIEW, AboutPageDp } from "@/components/Globel/Text";
+import { ProfileText_2, ProfileText_1, ProfileText_3 } from "@/components/Globel/Text";
 
 const AnimatedNumber = ({ value }) => {
 	const ref = useRef(null);
@@ -49,29 +48,18 @@ const about = () => {
 						{/* PROFILE TEXT  */}
 						{/* ============ */}
 						<div
-							className="col-span-3 xl:col-span-5 flex flex-col items-start text-left lg:text-justify 
-							justify-start md:order-2 md:col-span-8 lg:text-sm"
+							className="col-span-3 xl:col-span-5 flex flex-col items-start text-left
+							lg:text-justify justify-start md:order-2 md:col-span-8 lg:text-sm"
 						>
-							<h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
+							<h2
+								className="mb-4 text-lg font-bold uppercase text-dark/75
+							dark:text-light/75"
+							>
 								Biography
 							</h2>
-							<p className="font-semibold">
-								Asslam o Alikum! I'm Hamza Nafasat, a Full Stack Developer. I love
-								making websites look cool and work well. I know things like HTML,
-								CSS, Tailwind, JavaScript, React, ChakraUI and Next.js to create
-								awesome sites.
-							</p>
-							<p className="font-semibold my-4">
-								I also learned backend stuff using Node.js, Express, MongoDB, JWT,
-								Authentication and Mongoose. It sounds fancy, but it helps me make
-								websites do even cooler things and manage data better.
-							</p>
-							<p className="font-semibold">
-								I enjoy solving problems and want to help you bring your ideas to
-								life. Whether it's making the website look good or making sure
-								everything works smoothly behind the scenes, I'm here for it. Let's
-								chat about your project and make something great!
-							</p>
+							<p>{ProfileText_1}</p>
+							<p className="my-4">{ProfileText_2}</p>
+							<p>{ProfileText_3}</p>
 						</div>
 						{/* PROFILE IMAGE  */}
 						{/* ============== */}

@@ -3,12 +3,17 @@ const IndexPagePic =
 const AboutPageDp =
 	"https://res.cloudinary.com/hamzanafasat/image/upload/v1704067146/portfolio%20website/rh73wahkxdruyvb12jzr.jpg";
 import logo from "../../../public/logo.png";
-
-export { IndexPagePic, AboutPageDp, logo };
+const ProfileText_1 =
+	"Hey everyone! I am Hamza Nafasat, a Full Stack Developer. I love making website's look cool and work well. I am expert in HTML, SASS, Tailwind, JavaScript, React, for creating amazing sites.";
+const ProfileText_2 =
+	"But coding's just half of the story! I'm a problem solver! I transform your ideas into digital reality. My knowledge thirst keeps me exploring new skills, like Node.js, Express, MongoDB";
+const ProfileText_3 =
+	"Security? My middle name! I build secure logins and protect your info like a personal gaurd.  Basically, I'm your web partner, handling everything from the basics to the coolest trends. Let's chat about your project and make something great!";
+export { IndexPagePic, AboutPageDp, logo, ProfileText_1, ProfileText_2, ProfileText_3 };
 
 export const SIMPLEOVERVIEW = [
+	{ text: "Adapted Skills", num: 15 },
 	{ text: "Projects Completed", num: 13 },
-	{ text: "Satisfied Clients", num: 5 },
 	{ text: "Years Of Experience", num: 1 },
 ];
 // EDUCATION AND EXPERIENCES
