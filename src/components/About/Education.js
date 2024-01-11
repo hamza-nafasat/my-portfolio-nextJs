@@ -18,7 +18,7 @@ const Details = ({ type, time, place, info }) => {
 			>
 				<h3 className="capitalize font-bold text-2xl sm:text-xl xs:text-lg">{type}</h3>
 				<span className="capitalize font-medium text-dark/75 dark:text-light/75 xs:text-sm">
-					{time} | {place}
+					{time ? `${time} | ${place}` : place}
 				</span>
 				<p className="font-medium w-full md:text-sm text-left">{info}</p>
 			</motion.div>

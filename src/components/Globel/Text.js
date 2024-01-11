@@ -62,7 +62,7 @@ export const EDUCATIONLIST = [
 	},
 	{
 		type: "Online Courses",
-		time: "2020",
+		time: "2022 - Present",
 		place: "Youtube and Google tutorials",
 		info: "Completing a self-learning journey, mastering advanced technologies, including the entire MERN stack, along with SCSS and TypeScript, demonstrates my adaptability to the dynamic tech landscape.",
 	},
