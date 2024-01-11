@@ -53,12 +53,12 @@ export const EXPERIENCES = [
 		work: "Contributed to the development of streaming technologies at Netflix, optimizing video delivery and enhancing the overall user experience for millions of subscribers worldwide.",
 	},
 ];
-export const EDUCATIONLIST = [
+export const EDUCATION = [
 	{
-		type: "Master of Arts (MA) in Islamic and Arabic Studies",
+		type: "Master's (MA) in Arabic",
 		time: "2020",
-		place: "Islamic University Mukaram Mosque, Gujranwala",
-		info: "I have a Master of Arts (MA) degree in Islamic and Arabic Studies from Wafaq ul Madaris Al Salfia. This degree is recognized by the Higher Education Commission (HEC) and the Lahore High Court as a valid qualification for pursuing higher education or employment in Pakistan.",
+		place: "Islamic University Mukarram Mosque, Gujranwala",
+		info: "I have done my Master of Arts (MA) degree in Islamic and Arabic Studies from Wafaq ul Madaris Al Salfia. This degree is recognized by the Higher Education Commission (HEC) and the Lahore High Court as a valid qualification for pursuing higher education or employment in Pakistan.",
 	},
 	{
 		type: "Online Courses",
@@ -70,7 +70,7 @@ export const EDUCATIONLIST = [
 		type: "Intermediate Certificate",
 		time: "",
 		place: "Private Candidate",
-		info: "Demonstrated academic proficiency by successfully completing the Intermediate examination as a private candidate from the esteemed Gujranwala Board, showcasing dedication and self-motivation in the pursuit of education",
+		info: "Demonstrated academic proficiency by successfully completing the Intermediate examination as a private candidate from the esteemed Gujranwala Board, showcasing dedication and self-motivation in the pursuit of education.",
 	},
 ];
 // PROJECTS
@@ -81,9 +81,9 @@ export const FEATUREDPROJECTDATA = [
 		title: "CodeNinja",
 		link: "https://codeninja-mern.vercel.app",
 		github: "https://github.com/hamzanafasat/codeninja-mern-frontend",
-		image: "https://res.cloudinary.com/hamzanafasat/image/upload/v1704931276/portfolio%20website/oubex0yjdrixwe4r80kt.png",
+		image: "https://res.cloudinary.com/hamzanafasat/image/upload/v1704933284/portfolio%20website/fkfzvqoskq6ohpgg7vwi.png",
 		summery:
-			"Built a secure MERN course purchasing site with React, Chakra UI, MongoDB, Multer, Cloudinary, Chart.js, Toolkit, Razorpay for payments, and React Hot Toast for styling.",
+			"A MERN stack online learning platform with subscription-based lectures, secure authentication, theme modes, and an admin dashboard for real-time data visualization.",
 	},
 ];
 export const SMAILLPROJECTDATA = [
@@ -95,17 +95,17 @@ export const SMAILLPROJECTDATA = [
 		image: "https://res.cloudinary.com/hamzanafasat/image/upload/v1704931293/portfolio%20website/ktpo5zdvqogaetiqekce.png",
 	},
 	{
-		type: "Biginers React App",
+		type: "React Practice App",
+		title: "Blogging Website",
+		link: "https://blooging-webpage-react.vercel.app",
+		github: "https://github.com/hamzanafasat/blooging-webpage-react",
+		image: "https://res.cloudinary.com/hamzanafasat/image/upload/v1704933280/portfolio%20website/vqtxp8ata0yu4q1suevt.png",
+	},
+	{
+		type: "Beginners React App",
 		title: "Todo List",
 		link: "https://biginer-todo-list.vercel.app",
 		github: "https://github.com/hamzanafasat/todo-list-reactjs",
-		image: "https://res.cloudinary.com/hamzanafasat/image/upload/v1704931285/portfolio%20website/cvfkif2fcjgntocsfupt.png",
-	},
-	{
-		type: "React Practice App",
-		title: "Bloging Website",
-		link: "https://blooging-webpage-react.vercel.app",
-		github: "https://github.com/hamzanafasat/blooging-webpage-react",
-		image: "https://res.cloudinary.com/hamzanafasat/image/upload/v1704931282/portfolio%20website/njv3vsdsvbt7c2qczoow.png",
+		image: "https://res.cloudinary.com/hamzanafasat/image/upload/v1704933274/portfolio%20website/wgvuv4qwaa6yqimnr21z.png",
 	},
 ];

@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import ListIcon from "./ListIcon";
 import { useScroll, motion } from "framer-motion";
-import { EDUCATIONLIST } from "../Globel/Text";
+import { EDUCATION } from "../Globel/Text";
 
 const Details = ({ type, time, place, info }) => {
 	const Listref = useRef(null);
@@ -47,7 +47,7 @@ const Education = () => {
 					style={{ scaleY: scrollYProgress }}
 				/>
 				<ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
-					{EDUCATIONLIST.map((item, i) => (
+					{EDUCATION.map((item, i) => (
 						<Details
 							key={i + "kldsfb" + i}
 							type={item.type}
