@@ -13,7 +13,7 @@ export { IndexPagePic, AboutPageDp, logo, ProfileText_1, ProfileText_2, ProfileT
 
 export const SIMPLEOVERVIEW = [
 	{ text: "Adapted Skills", num: 15 },
-	{ text: "Projects Completed", num: 13 },
+	{ text: "Projects Completed", num: 10 },
 	{ text: "Years Of Experience", num: 1 },
 ];
 // EDUCATION AND EXPERIENCES
@@ -55,22 +55,22 @@ export const EXPERIENCES = [
 ];
 export const EDUCATIONLIST = [
 	{
-		type: "Board of Intermediate and Secondary Education",
+		type: "Master of Arts (MA) in Islamic and Arabic Studies",
 		time: "2020",
-		place: "Private Candidate",
-		info: "Demonstrated academic proficiency by successfully completing the Intermediate examination as a private candidate from the esteemed Gujranwala Board, showcasing dedication and self-motivation in the pursuit of education",
-	},
-	{
-		type: "Wafaq ul Madaris Al-Arabia,Gujranwala",
-		time: "2019",
 		place: "Islamic University Mukaram Mosque, Gujranwala",
-		info: "The Shahadat ul Almia from Wafaq ul Madaris Al Arabia is acknowledged by the Higher Education Commission (HEC) in Pakistan. It holds equivalence to M.A. Arabic and Islamic Studies, validated by the Lahore High Court decision in 139-L of 2012.",
+		info: "I have a Master of Arts (MA) degree in Islamic and Arabic Studies from Wafaq ul Madaris Al Salfia. This degree is recognized by the Higher Education Commission (HEC) and the Lahore High Court as a valid qualification for pursuing higher education or employment in Pakistan.",
 	},
 	{
 		type: "Online Courses",
 		time: "2020",
-		place: "Youtube or Google tutorials",
+		place: "Youtube and Google tutorials",
 		info: "Completing a self-learning journey, mastering advanced technologies, including the entire MERN stack, along with SCSS and TypeScript, demonstrates my adaptability to the dynamic tech landscape.",
+	},
+	{
+		type: "Intermediate Certificate",
+		time: "",
+		place: "Private Candidate",
+		info: "Demonstrated academic proficiency by successfully completing the Intermediate examination as a private candidate from the esteemed Gujranwala Board, showcasing dedication and self-motivation in the pursuit of education",
 	},
 ];
 // PROJECTS
@@ -81,7 +81,7 @@ export const FEATUREDPROJECTDATA = [
 		title: "CodeNinja",
 		link: "https://codeninja-mern.vercel.app",
 		github: "https://github.com/hamzanafasat/codeninja-mern-frontend",
-		image: "https://res.cloudinary.com/hamzanafasat/image/upload/v1704068396/portfolio%20website/uwah9dcw4n3wnoudtc0i.jpg",
+		image: "https://res.cloudinary.com/hamzanafasat/image/upload/v1704931276/portfolio%20website/oubex0yjdrixwe4r80kt.png",
 		summery:
 			"Built a secure MERN course purchasing site with React, Chakra UI, MongoDB, Multer, Cloudinary, Chart.js, Toolkit, Razorpay for payments, and React Hot Toast for styling.",
 	},
@@ -92,20 +92,20 @@ export const SMAILLPROJECTDATA = [
 		title: "Barber Shop",
 		link: "https://barber-website-static.vercel.app",
 		github: "https://github.com/hamzanafasat/barber-website-static",
-		image: "https://res.cloudinary.com/hamzanafasat/image/upload/v1704068409/portfolio%20website/wcsealnghyrskxruyftq.jpg",
+		image: "https://res.cloudinary.com/hamzanafasat/image/upload/v1704931293/portfolio%20website/ktpo5zdvqogaetiqekce.png",
 	},
 	{
 		type: "Biginers React App",
 		title: "Todo List",
 		link: "https://biginer-todo-list.vercel.app",
 		github: "https://github.com/hamzanafasat/todo-list-reactjs",
-		image: "https://res.cloudinary.com/hamzanafasat/image/upload/v1704068409/portfolio%20website/wcsealnghyrskxruyftq.jpg",
+		image: "https://res.cloudinary.com/hamzanafasat/image/upload/v1704931285/portfolio%20website/cvfkif2fcjgntocsfupt.png",
 	},
 	{
 		type: "React Practice App",
 		title: "Bloging Website",
 		link: "https://blooging-webpage-react.vercel.app",
 		github: "https://github.com/hamzanafasat/blooging-webpage-react",
-		image: "https://res.cloudinary.com/hamzanafasat/image/upload/v1704068409/portfolio%20website/wcsealnghyrskxruyftq.jpg",
+		image: "https://res.cloudinary.com/hamzanafasat/image/upload/v1704931282/portfolio%20website/njv3vsdsvbt7c2qczoow.png",
 	},
 ];
