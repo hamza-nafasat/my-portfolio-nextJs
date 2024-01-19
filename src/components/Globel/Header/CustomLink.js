@@ -40,9 +40,10 @@ export const CustomMobileLink = ({ href = "", title = "", className = "", toggel
 };
 // CUSTOM a TAG WITH MOTION
 // ========================
-export const MotionA = ({ href = "", className = "", text = "" }) => {
+export const MotionA = ({ href = "", className = "", label, text = "" }) => {
 	return (
 		<motion.a
+			aria-label={label || `a link for ${href}`}
 			href={href}
 			target="_blank"
 			whileHover={{ y: -4 }}

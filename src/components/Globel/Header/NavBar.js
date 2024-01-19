@@ -44,6 +44,7 @@ const NavBar = () => {
 					{/* LIGHT AND DARK MOOD BUTTON */}
 					{/* ========================== */}
 					<button
+						aria-label="Switch Theme"
 						onClick={() => setMode(mode === "light" ? "dark" : "light")}
 						className={`w-8 ml-3 flex items-center justify-center rounded-full p-1  ${
 							mode === "light" ? "bg-dark text-light" : "bg-light text-dark"

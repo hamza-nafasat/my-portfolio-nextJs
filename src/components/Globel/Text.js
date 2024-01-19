@@ -77,7 +77,7 @@ export const EDUCATION = [
 // ========
 export const FEATUREDPROJECTDATA = [
 	{
-		type: "MERN Stack Site",
+		type: "MERN Website",
 		title: "CodeNinja",
 		link: "https://codeninja-mern.vercel.app",
 		github: "https://github.com/hamzanafasat/codeninja-mern-frontend",
