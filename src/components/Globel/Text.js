@@ -5,9 +5,9 @@ const AboutPageDp =
 const ProfileText_1 =
     "Hey everyone! I am Hamza Nafasat, a Full Stack Developer. I love making website's look cool and work well. I am expert in HTML, SASS, Tailwind, JavaScript, React, for creating amazing sites.";
 const ProfileText_2 =
-    "But coding's just half of the story! I'm a problem solver! I transform your ideas into digital reality. My knowledge thirst keeps me exploring new skills, like Node.js, Express, MongoDB";
+    "But coding's just half of the story! I'm also a good problem solver!. My knowledge thirst keeps me exploring new skills, like Node.js, Express, MongoDB";
 const ProfileText_3 =
-    "Security? My middle name! I build secure logins and protect your info like a personal gaurd.  Basically, I'm your web partner, handling everything from the basics to the coolest trends. Let's chat about your project and make something great!";
+    "Security? My middle name! I build secure logins and protect your info like a personal gaurd. Basically, I'm your Full-Stack web partner. Let's chat about your project and make something great!";
 export { IndexPagePic, AboutPageDp, ProfileText_1, ProfileText_2, ProfileText_3 };
 
 export const SIMPLEOVERVIEW = [
@@ -22,18 +22,18 @@ export const EXPERIENCES = [
         position: "Full Stack Developer",
         company: "Acme Digital Solution",
         companyLink: "#",
-        time: "2023-Present",
+        time: "2024-Present",
         address: "Lahore, Pakistan",
         work: "I design and develop full-stack web applications, leveraging front-end, back-end, and database expertise. Prioritize user-centric design principles to deliver intuitive and engaging web app experiences. Champion security through robust measures like secure authentication, authorization, and data encryption to safeguard user privacy",
     },
-    {
-        position: "Free Lancer",
-        company: "Online Clients",
-        companyLink: "#",
-        time: "2023-2024",
-        address: "Gujrat, Pakistan",
-        work: "As a Free Lancer in Full-Stack Web Developer, I specialize in creating intuitive and secure web applications. My expertise spans both front-end and back-end development, ensuring seamless user experiences. Let’s bring your vision to life! ",
-    },
+    // {
+    //     position: "Free Lancer",
+    //     company: "Online Clients",
+    //     companyLink: "#",
+    //     time: "2023-2024",
+    //     address: "Gujrat, Pakistan",
+    //     work: "As a Free Lancer in Full-Stack Web Developer, I specialize in creating intuitive and secure web applications. My expertise spans both front-end and back-end development, ensuring seamless user experiences. Let’s bring your vision to life! ",
+    // },
 ];
 export const EDUCATION = [
     {
