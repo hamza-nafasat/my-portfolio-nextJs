@@ -83,7 +83,7 @@ export const SMAILLPROJECTDATA = [
         title: "Barber Shop",
         link: "https://barber-website-static.vercel.app",
         github: "https://github.com/hamzanafasat/barber-website-static",
-        image: "https://res.cloudinary.com/hamzanafasat/image/upload/v1704931293/portfolio%20website/ktpo5zdvqogaetiqekce.png",
+        image: "https://res.cloudinary.com/hamzanafasat/image/upload/v1713777441/portfolio%20website/evqppf8jhvvaq5sgbd5w.png",
     },
     // {
     //     type: "React Practice App",
