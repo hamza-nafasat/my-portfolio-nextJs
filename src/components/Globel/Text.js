@@ -97,6 +97,6 @@ export const SMAILLPROJECTDATA = [
         title: "Todo List",
         link: "https://biginer-todo-list.vercel.app",
         github: "https://github.com/hamzanafasat/todo-list-reactjs",
-        image: "https://res.cloudinary.com/hamzanafasat/image/upload/v1704933274/portfolio%20website/wgvuv4qwaa6yqimnr21z.png",
+        image: "https://res.cloudinary.com/hamzanafasat/image/upload/v1713777743/portfolio%20website/uh76dhdja5xx0ccq8y9x.png",
     },
 ];
