@@ -62,7 +62,7 @@ export const FEATUREDPROJECTDATA = [
         type: "MERN Website",
         title: "E-Commerce-Store",
         link: "https://mern-e-commerce-2024.vercel.app/",
-        github: "https://github.com/hamza-nafasat/my-projects/tree/main/mern/e-commerece",
+        github: "https://github.com/hamza-nafasat/my-all-created-projects/tree/main/mern/e-commerece",
         image: "https://res.cloudinary.com/hamzanafasat/image/upload/v1713523493/portfolio%20website/shonrfdg7tlemdothtjf.png",
         summery:
             "Developed a scalable e-commerce platform for seamless product browsing and purchasing. Implemented a data-rich dashboard with charts and tables for website insights. Secure payment processing via Stripe and Firebase authentication.",
@@ -70,8 +70,8 @@ export const FEATUREDPROJECTDATA = [
     {
         type: "MERN Website",
         title: "CodeNinja",
-        link: "https://github.com/hamza-nafasat/my-projects/tree/main/mern/code-ninja",
-        github: "https://github.com/hamza-nafasat/my-projects/tree/main/mern/code-ninja",
+        link: "https://github.com/hamza-nafasat/my-all-created-projects/tree/main/mern/code-ninja",
+        github: "https://github.com/hamza-nafasat/my-all-created-projects/tree/main/mern/code-ninja",
         image: "https://res.cloudinary.com/hamzanafasat/image/upload/v1704933284/portfolio%20website/fkfzvqoskq6ohpgg7vwi.png",
         summery:
             "A MERN stack online learning platform with subscription-based lectures, secure authentication, theme modes, and an admin dashboard for real-time data visualization.",
