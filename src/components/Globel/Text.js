@@ -1,102 +1,109 @@
 const IndexPagePic =
-    "https://res.cloudinary.com/hamzanafasat/image/upload/v1704068266/portfolio%20website/u8tenv9sg4vmxxt6a9xz.png";
+  "https://res.cloudinary.com/hamzanafasat/image/upload/v1704068266/portfolio%20website/u8tenv9sg4vmxxt6a9xz.png";
 const AboutPageDp =
-    "https://res.cloudinary.com/hamzanafasat/image/upload/v1713523995/portfolio%20website/rhepqqg3s6hovmxp79wq.jpg";
+  "https://res.cloudinary.com/hamzanafasat/image/upload/v1733300985/portfolio%20website/whmqwhswgrap4enqiwko.jpg";
 const ProfileText_1 =
-    "Hey everyone! I am Hamza Nafasat, a Full Stack Developer. I love making website's look cool and work well. I am expert in HTML, SASS, Tailwind, JavaScript, React, for creating amazing sites.";
+  "Hey everyone! I am Hamza Nafasat, a Full Stack Developer. I love making website's look cool and work well. I am expert in HTML, SASS, Tailwind, JavaScript, React, for creating amazing sites.";
 const ProfileText_2 =
-    "But coding's just half of the story! I'm also a good problem solver!. My knowledge thirst keeps me exploring new skills, like Node.js, Express, MongoDB";
+  "But coding's just half of the story! I'm also a good problem solver!. My knowledge thirst keeps me exploring new skills, like Node.js, Express, MongoDB";
 const ProfileText_3 =
-    "Security? My middle name! I build secure logins and protect your info like a personal gaurd. Basically, I'm your Full-Stack web partner. Let's chat about your project and make something great!";
+  "Security? My middle name! I build secure logins and protect your info like a personal gaurd. Basically, I'm your Full-Stack web partner. Let's chat about your project and make something great!";
 export { IndexPagePic, AboutPageDp, ProfileText_1, ProfileText_2, ProfileText_3 };
 
 export const SIMPLEOVERVIEW = [
-    { text: "Adapted Skills", num: 20 },
-    { text: "Projects Completed", num: 10 },
-    { text: "Years Of Experience", num: 1.5 },
+  { text: "Adapted Skills", num: 30 },
+  { text: "Projects Completed", num: 20 },
+  { text: "Years Of Experience", num: 3 },
 ];
 // EDUCATION AND EXPERIENCES
 // =========================
 export const EXPERIENCES = [
-    {
-        position: "Full Stack Developer",
-        company: "Acme Digital Solution",
-        companyLink: "#",
-        time: "2024-Present",
-        address: "Lahore, Pakistan",
-        work: "I design and develop full-stack web applications, leveraging front-end, back-end, and database expertise. Prioritize user-centric design principles to deliver intuitive and engaging web app experiences. Champion security through robust measures like secure authentication, authorization, and data encryption to safeguard user privacy",
-    },
-    // {
-    //     position: "Free Lancer",
-    //     company: "Online Clients",
-    //     companyLink: "#",
-    //     time: "2023-2024",
-    //     address: "Gujrat, Pakistan",
-    //     work: "As a Free Lancer in Full-Stack Web Developer, I specialize in creating intuitive and secure web applications. My expertise spans both front-end and back-end development, ensuring seamless user experiences. Let’s bring your vision to life! ",
-    // },
+  {
+    position: "MERN Stack Developer",
+    company: "Acme Digital Solution",
+    companyLink: "#",
+    time: "01/2024-05/2024",
+    address: "Lahore, Pakistan",
+    work: "Joined as a Junior MERN Developer. Built full-stack websites using MongoDB, Express.js, React, and Node.js. Worked closely with the team to develop and deploy features.",
+  },
+  {
+    position: "Node.js Developer",
+    company: "Tyzend",
+    companyLink: "#",
+    time: "03/2024-06/2024",
+    address: "Remote",
+    work: "Joined as a Backend Developer. Developed the backend of a website using the Node.js framework. Also worked on integrating React with backend APIs to ensure smooth communication between frontend and backend.",
+  },
+  {
+    position: "MERN Stack Developer",
+    company: "Tetra InTech",
+    companyLink: "#",
+    time: "05/2024-present",
+    address: "Lahore, Pakistan",
+    work: "Joined as a Senior MERN Developer. Working on large projects, including IoT-based websites using sockets and microservices. Also using technologies like Redis and Next.js to handle complex systems and improve performance.",
+  },
 ];
 export const EDUCATION = [
-    {
-        type: "Master's (MA) in Arabic",
-        time: "2020",
-        place: "Islamic University Mukarram Mosque, Gujranwala",
-        info: "I have done my Master of Arts (MA) degree in Islamic and Arabic Studies from Wafaq ul Madaris Al Salfia. This degree is recognized by the Higher Education Commission (HEC) and the Lahore High Court as a valid qualification for pursuing higher education or employment in Pakistan.",
-    },
-    // {
-    //     type: "Online Courses",
-    //     time: "2022 - Present",
-    //     place: "Youtube and Google tutorials",
-    //     info: "Completing a self-learning journey, mastering advanced technologies, including the entire MERN stack, along with SCSS and TypeScript, demonstrates my adaptability to the dynamic tech landscape.",
-    // },
-    {
-        type: "Intermediate Certificate",
-        time: "",
-        place: "Private Candidate",
-        info: "Demonstrated academic proficiency by successfully completing the Intermediate examination as a private candidate from the esteemed Gujranwala Board, showcasing dedication and self-motivation in the pursuit of education.",
-    },
+  {
+    type: "Master's (MA) in Arabic",
+    time: "2020",
+    place: "Islamic University Mukarram Mosque, Gujranwala",
+    info: "I have done my Master of Arts (MA) degree in Islamic and Arabic Studies from Wafaq ul Madaris Al Salfia. This degree is recognized by the Higher Education Commission (HEC) and the Lahore High Court as a valid qualification for pursuing higher education or employment in Pakistan.",
+  },
 ];
 // PROJECTS
 // ========
 export const FEATUREDPROJECTDATA = [
-    {
-        type: "MERN Website",
-        title: "E-Commerce-Store",
-        link: "https://mern-e-commerce-2024.vercel.app/",
-        github: "https://github.com/hamza-nafasat/my-all-created-projects/tree/main/mern/e-commerece",
-        image: "https://res.cloudinary.com/hamzanafasat/image/upload/v1713523493/portfolio%20website/shonrfdg7tlemdothtjf.png",
-        summery:
-            "Developed a scalable e-commerce platform for seamless product browsing and purchasing. Implemented a data-rich dashboard with charts and tables for website insights. Secure payment processing via Stripe and Firebase authentication.",
-    },
-    {
-        type: "MERN Website",
-        title: "CodeNinja",
-        link: "https://github.com/hamza-nafasat/my-all-created-projects/tree/main/mern/code-ninja",
-        github: "https://github.com/hamza-nafasat/my-all-created-projects/tree/main/mern/code-ninja",
-        image: "https://res.cloudinary.com/hamzanafasat/image/upload/v1704933284/portfolio%20website/fkfzvqoskq6ohpgg7vwi.png",
-        summery:
-            "A MERN stack online learning platform with subscription-based lectures, secure authentication, theme modes, and an admin dashboard for real-time data visualization.",
-    },
+  {
+    type: "MERN Website",
+    title: "Jira Clone",
+    link: "https://github.com/hamza-nafasat/jira-clone-next-js",
+    github: "https://github.com/hamza-nafasat/jira-clone-next-js",
+    image:
+      "https://res.cloudinary.com/hamzanafasat/image/upload/v1733307329/portfolio%20website/zoyghzoqh37mo0xgusbq.png",
+    summery:
+      "Built a Jira clone using Hono.js and Next.js for easy project management. Features include task tracking, drag-and-drop, and real-time updates, making teamwork smooth and efficient.",
+  },
+  {
+    type: "MERN Website",
+    title: "Air Quality System",
+    link: "",
+    github: "",
+    image:
+      "https://res.cloudinary.com/hamzanafasat/image/upload/v1733307419/portfolio%20website/lj89p9tympi1jrlr58nn.png",
+    summery:
+      "Developed a system to monitor air quality in real-time using sensors for temperature, TVOC, humidity, CO₂, and CO. Supports MongoDB and MySQL, with the option to connect custom databases.",
+  },
+  {
+    type: "MERN Website",
+    title: "Workforce Management",
+    link: "",
+    github: "",
+    image:
+      "https://res.cloudinary.com/hamzanafasat/image/upload/v1733308507/portfolio%20website/mpolfcniwypdkribuboo.png",
+    summery:
+      "Created a system for managing workers with role-based access, GPS tracking, and sensor data. Supports MongoDB and MySQL, allowing custom databases and real-time task tracking.",
+  },
 ];
 export const SMAILLPROJECTDATA = [
-    {
-        type: "Static Landing Page",
-        title: "Barber Shop",
-        link: "https://barber-website-static.vercel.app",
-        github: "https://github.com/hamzanafasat/barber-website-static",
-        image: "https://res.cloudinary.com/hamzanafasat/image/upload/v1713777441/portfolio%20website/evqppf8jhvvaq5sgbd5w.png",
-    },
-    // {
-    //     type: "React Practice App",
-    //     title: "Static Blogging Page",
-    //     link: "https://blooging-webpage-react.vercel.app",
-    //     github: "https://github.com/hamzanafasat/blooging-webpage-react",
-    //     image: "https://res.cloudinary.com/hamzanafasat/image/upload/v1704933280/portfolio%20website/vqtxp8ata0yu4q1suevt.png",
-    // },
-    {
-        type: "Beginners React App",
-        title: "Todo List",
-        link: "https://biginer-todo-list.vercel.app",
-        github: "https://github.com/hamzanafasat/todo-list-reactjs",
-        image: "https://res.cloudinary.com/hamzanafasat/image/upload/v1713777743/portfolio%20website/uh76dhdja5xx0ccq8y9x.png",
-    },
+  {
+    type: "MERN Website",
+    title: "Smart Task Manager",
+    link: "https://github.com/hamza-nafasat/smart-task-management-frontend",
+    github: "https://github.com/hamza-nafasat/smart-task-management-frontend",
+    image:
+      "https://res.cloudinary.com/hamzanafasat/image/upload/v1733308922/portfolio%20website/a3kjudepur8nzygwh5u7.png",
+    summery:
+      "Developed a task management system where managers can assign tasks to users and track their progress. Users can see their tasks as in-progress, completed, or scheduled. Includes task reports and a rating system where managers rate user performance.",
+  },
+  {
+    type: "MERN Website",
+    title: "E-Commerce-Store",
+    link: "https://github.com/hamza-nafasat/e-comerece-store",
+    github: "https://github.com/hamza-nafasat/e-comerece-store",
+    image:
+      "https://res.cloudinary.com/hamzanafasat/image/upload/v1713523493/portfolio%20website/shonrfdg7tlemdothtjf.png",
+    summery:
+      "Built a scalable e-commerce site for easy product browsing and buying. Added a detailed dashboard with charts and tables for tracking website activity. Used secure Firebase for login.",
+  },
 ];
