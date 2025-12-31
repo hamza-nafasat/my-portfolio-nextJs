@@ -87,6 +87,27 @@ export const FEATUREDPROJECTDATA = [
     summery:
       "Built a production-ready B2B AI customer support platform with real-time chat, voice assistance, and intelligent knowledge base. Features include AI-powered conversations using Convex Agents, document embeddings with RAG, human handoff and auto-resolution workflows, voice support via VAPI, embeddable chat widget, operator dashboard, and team-based workspaces. Includes secure API key storage with AWS Secrets Manager, authentication and subscriptions via Clerk, multi-model AI support (OpenAI, Anthropic, Grok), error tracking with Sentry, and a monorepo architecture using Turborepo. Developed with Next.js 15, React 19, Tailwind v4, shadcn/ui, and production-ready deployment.",
   },
+
+  {
+    type: "MERN Website",
+    title: "Air Quality System",
+    link: "",
+    github: "",
+    image:
+      "https://res.cloudinary.com/hamzanafasat/image/upload/v1733307419/portfolio%20website/lj89p9tympi1jrlr58nn.png",
+    summery:
+      "Developed a system to monitor air quality in real-time using sensors for temperature, TVOC, humidity, CO₂, and CO. Supports MongoDB and MySQL, with the option to connect custom databases.",
+  },
+  {
+    type: "MERN Website",
+    title: "Workforce Management",
+    link: "",
+    github: "",
+    image:
+      "https://res.cloudinary.com/hamzanafasat/image/upload/v1733308507/portfolio%20website/mpolfcniwypdkribuboo.png",
+    summery:
+      "Created a system for managing workers with role-based access, GPS tracking, and sensor data. Supports MongoDB and MySQL, allowing custom databases and real-time task tracking.",
+  },
 ];
 export const SMAILLPROJECTDATA = [
   {
@@ -120,24 +141,4 @@ export const SMAILLPROJECTDATA = [
 //     "https://res.cloudinary.com/hamzanafasat/image/upload/v1733307329/portfolio%20website/zoyghzoqh37mo0xgusbq.png",
 //   summery:
 //     "Built a Jira clone using Hono.js and Next.js for easy project management. Features include task tracking, drag-and-drop, and real-time updates, making teamwork smooth and efficient.",
-// },
-// {
-//   type: "MERN Website",
-//   title: "Air Quality System",
-//   link: "",
-//   github: "",
-//   image:
-//     "https://res.cloudinary.com/hamzanafasat/image/upload/v1733307419/portfolio%20website/lj89p9tympi1jrlr58nn.png",
-//   summery:
-//     "Developed a system to monitor air quality in real-time using sensors for temperature, TVOC, humidity, CO₂, and CO. Supports MongoDB and MySQL, with the option to connect custom databases.",
-// },
-// {
-//   type: "MERN Website",
-//   title: "Workforce Management",
-//   link: "",
-//   github: "",
-//   image:
-//     "https://res.cloudinary.com/hamzanafasat/image/upload/v1733308507/portfolio%20website/mpolfcniwypdkribuboo.png",
-//   summery:
-//     "Created a system for managing workers with role-based access, GPS tracking, and sensor data. Supports MongoDB and MySQL, allowing custom databases and real-time task tracking.",
 // },
