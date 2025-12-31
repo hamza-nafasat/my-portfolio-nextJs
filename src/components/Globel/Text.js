@@ -1,7 +1,9 @@
 const IndexPagePic =
   "https://res.cloudinary.com/hamzanafasat/image/upload/v1704068266/portfolio%20website/u8tenv9sg4vmxxt6a9xz.png";
+// const AboutPageDp =
+//   "https://res.cloudinary.com/hamzanafasat/image/upload/v1733300985/portfolio%20website/whmqwhswgrap4enqiwko.jpg";
 const AboutPageDp =
-  "https://res.cloudinary.com/hamzanafasat/image/upload/v1733300985/portfolio%20website/whmqwhswgrap4enqiwko.jpg";
+  "https://res.cloudinary.com/hamzanaaafasat/image/upload/v1733300985/portfolio%20website/whmqwhswgrap4enqiwko.jpg";
 const ProfileText_1 =
   "Hey everyone! I am Hamza Nafasat, a Full Stack Developer. I love making website's look cool and work well. I am expert in HTML, SASS, Tailwind, JavaScript, React, for creating amazing sites.";
 const ProfileText_2 =
@@ -55,34 +57,35 @@ export const EDUCATION = [
 // ========
 export const FEATUREDPROJECTDATA = [
   {
-    type: "MERN Website",
-    title: "Jira Clone",
-    link: "https://github.com/hamza-nafasat/jira-clone-next-js",
-    github: "https://github.com/hamza-nafasat/jira-clone-next-js",
+    type: "Full-Stack SaaS Platform",
+    title: "Nodebase – Workflow Automation Platform",
+    link: "https://nodebase-n8n-clone-tau.vercel.app",
+    github: "https://github.com/hamza-nafasat/nodebase-n8n-clone.git",
     image:
-      "https://res.cloudinary.com/hamzanafasat/image/upload/v1733307329/portfolio%20website/zoyghzoqh37mo0xgusbq.png",
+      "https://res.cloudinary.com/hamzanafasat/image/upload/v1767186824/portfolio%20website/nodebase-n8n_gtqwhl.png",
     summery:
-      "Built a Jira clone using Hono.js and Next.js for easy project management. Features include task tracking, drag-and-drop, and real-time updates, making teamwork smooth and efficient.",
+      "Built a production-ready workflow automation platform inspired by n8n and Zapier. Features a visual drag-and-drop workflow builder using React Flow, real-time trigger nodes (Webhook, Google Forms, Stripe), AI integrations (OpenAI, Claude, Gemini), background job execution with Inngest, encrypted credential management, execution history with error tracking, and a complete SaaS layer including authentication, subscriptions, and payments. Developed with Next.js 16 App Router, TypeScript, Prisma, Neon Postgres, tRPC, Sentry, and Polar for scalable, secure automation workflows.",
   },
   {
-    type: "MERN Website",
-    title: "Air Quality System",
-    link: "",
-    github: "",
+    type: "Full-Stack SaaS Platform",
+    title: "MeetAI – AI-Powered Video Call Platform",
+    link: "https://meet-ai-agents-amber.vercel.app",
+    github: "https://github.com/hamza-nafasat/meet-ai-agents.git",
     image:
-      "https://res.cloudinary.com/hamzanafasat/image/upload/v1733307419/portfolio%20website/lj89p9tympi1jrlr58nn.png",
+      "https://res.cloudinary.com/hamzanafasat/image/upload/v1767188826/portfolio%20website/meet-ai-agents_jqm1lm.png",
     summery:
-      "Developed a system to monitor air quality in real-time using sensors for temperature, TVOC, humidity, CO₂, and CO. Supports MongoDB and MySQL, with the option to connect custom databases.",
+      "Built an AI-powered video conferencing platform with real-time calls and custom AI agents. Supports live video meetings using Stream Video SDK, AI-generated summaries, transcripts, recordings, and post-call AI chat that understands meeting context. Includes transcript search, video playback, meeting history, background processing with Inngest, OpenAI integrations, authentication, subscriptions, and a full SaaS workflow. Developed with Next.js 15, React 19, TypeScript, Drizzle ORM, Neon Postgres, Tailwind v4, Shadcn/ui, Better Auth, Polar payments, and production-ready deployment.",
   },
+
   {
-    type: "MERN Website",
-    title: "Workforce Management",
-    link: "",
-    github: "",
+    type: "B2B SaaS Platform",
+    title: "Echo – AI Customer Support Platform",
+    link: "https://echo-web-ebon.vercel.app/integrations",
+    github: "https://github.com/hamza-nafasat/echo",
     image:
-      "https://res.cloudinary.com/hamzanafasat/image/upload/v1733308507/portfolio%20website/mpolfcniwypdkribuboo.png",
+      "https://res.cloudinary.com/hamzanafasat/image/upload/v1767189266/portfolio%20website/echo-banner_qohdeu.png",
     summery:
-      "Created a system for managing workers with role-based access, GPS tracking, and sensor data. Supports MongoDB and MySQL, allowing custom databases and real-time task tracking.",
+      "Built a production-ready B2B AI customer support platform with real-time chat, voice assistance, and intelligent knowledge base. Features include AI-powered conversations using Convex Agents, document embeddings with RAG, human handoff and auto-resolution workflows, voice support via VAPI, embeddable chat widget, operator dashboard, and team-based workspaces. Includes secure API key storage with AWS Secrets Manager, authentication and subscriptions via Clerk, multi-model AI support (OpenAI, Anthropic, Grok), error tracking with Sentry, and a monorepo architecture using Turborepo. Developed with Next.js 15, React 19, Tailwind v4, shadcn/ui, and production-ready deployment.",
   },
 ];
 export const SMAILLPROJECTDATA = [
@@ -107,3 +110,34 @@ export const SMAILLPROJECTDATA = [
       "Built a scalable e-commerce site for easy product browsing and buying. Added a detailed dashboard with charts and tables for tracking website activity. Used secure Firebase for login.",
   },
 ];
+
+// {
+//   type: "MERN Website",
+//   title: "Jira Clone",
+//   link: "https://github.com/hamza-nafasat/jira-clone-next-js",
+//   github: "https://github.com/hamza-nafasat/jira-clone-next-js",
+//   image:
+//     "https://res.cloudinary.com/hamzanafasat/image/upload/v1733307329/portfolio%20website/zoyghzoqh37mo0xgusbq.png",
+//   summery:
+//     "Built a Jira clone using Hono.js and Next.js for easy project management. Features include task tracking, drag-and-drop, and real-time updates, making teamwork smooth and efficient.",
+// },
+// {
+//   type: "MERN Website",
+//   title: "Air Quality System",
+//   link: "",
+//   github: "",
+//   image:
+//     "https://res.cloudinary.com/hamzanafasat/image/upload/v1733307419/portfolio%20website/lj89p9tympi1jrlr58nn.png",
+//   summery:
+//     "Developed a system to monitor air quality in real-time using sensors for temperature, TVOC, humidity, CO₂, and CO. Supports MongoDB and MySQL, with the option to connect custom databases.",
+// },
+// {
+//   type: "MERN Website",
+//   title: "Workforce Management",
+//   link: "",
+//   github: "",
+//   image:
+//     "https://res.cloudinary.com/hamzanafasat/image/upload/v1733308507/portfolio%20website/mpolfcniwypdkribuboo.png",
+//   summery:
+//     "Created a system for managing workers with role-based access, GPS tracking, and sensor data. Supports MongoDB and MySQL, allowing custom databases and real-time task tracking.",
+// },
