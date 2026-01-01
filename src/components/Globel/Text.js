@@ -3,7 +3,7 @@ const IndexPagePic =
 // const AboutPageDp =
 //   "https://res.cloudinary.com/hamzanafasat/image/upload/v1733300985/portfolio%20website/whmqwhswgrap4enqiwko.jpg";
 const AboutPageDp =
-  "https://res.cloudinary.com/hamzanaaafasat/image/upload/v1733300985/portfolio%20website/whmqwhswgrap4enqiwko.jpg";
+  "https://res.cloudinary.com/hamzanafasat/image/upload/v1767246947/portfolio%20website/DevImage_ozuegx.jpg";
 const ProfileText_1 =
   "Hey everyone! I am Hamza Nafasat, a Full Stack Developer. I love making website's look cool and work well. I am expert in HTML, SASS, Tailwind, JavaScript, React, for creating amazing sites.";
 const ProfileText_2 =
@@ -66,6 +66,17 @@ export const FEATUREDPROJECTDATA = [
     summery:
       "Built a production-ready workflow automation platform inspired by n8n and Zapier. Features a visual drag-and-drop workflow builder using React Flow, real-time trigger nodes (Webhook, Google Forms, Stripe), AI integrations (OpenAI, Claude, Gemini), background job execution with Inngest, encrypted credential management, execution history with error tracking, and a complete SaaS layer including authentication, subscriptions, and payments. Developed with Next.js 16 App Router, TypeScript, Prisma, Neon Postgres, tRPC, Sentry, and Polar for scalable, secure automation workflows.",
   },
+
+  {
+    type: "B2B SaaS Platform",
+    title: "Echo – AI Customer Support Platform",
+    link: "https://echo-web-ebon.vercel.app",
+    github: "https://github.com/hamza-nafasat/echo",
+    image:
+      "https://res.cloudinary.com/hamzanafasat/image/upload/v1767189266/portfolio%20website/echo-banner_qohdeu.png",
+    summery:
+      "Built a production-ready B2B AI customer support platform with real-time chat, voice assistance, and intelligent knowledge base. Features include AI-powered conversations using Convex Agents, document embeddings with RAG, human handoff and auto-resolution workflows, voice support via VAPI, embeddable chat widget, operator dashboard, and team-based workspaces. Includes secure API key storage with AWS Secrets Manager, authentication and subscriptions via Clerk, multi-model AI support (OpenAI, Anthropic, Grok), error tracking with Sentry, and a monorepo architecture using Turborepo. Developed with Next.js 15, React 19, Tailwind v4, shadcn/ui, and production-ready deployment.",
+  },
   {
     type: "Full-Stack SaaS Platform",
     title: "MeetAI – AI-Powered Video Call Platform",
@@ -75,17 +86,6 @@ export const FEATUREDPROJECTDATA = [
       "https://res.cloudinary.com/hamzanafasat/image/upload/v1767188826/portfolio%20website/meet-ai-agents_jqm1lm.png",
     summery:
       "Built an AI-powered video conferencing platform with real-time calls and custom AI agents. Supports live video meetings using Stream Video SDK, AI-generated summaries, transcripts, recordings, and post-call AI chat that understands meeting context. Includes transcript search, video playback, meeting history, background processing with Inngest, OpenAI integrations, authentication, subscriptions, and a full SaaS workflow. Developed with Next.js 15, React 19, TypeScript, Drizzle ORM, Neon Postgres, Tailwind v4, Shadcn/ui, Better Auth, Polar payments, and production-ready deployment.",
-  },
-
-  {
-    type: "B2B SaaS Platform",
-    title: "Echo – AI Customer Support Platform",
-    link: "https://echo-web-ebon.vercel.app/integrations",
-    github: "https://github.com/hamza-nafasat/echo",
-    image:
-      "https://res.cloudinary.com/hamzanafasat/image/upload/v1767189266/portfolio%20website/echo-banner_qohdeu.png",
-    summery:
-      "Built a production-ready B2B AI customer support platform with real-time chat, voice assistance, and intelligent knowledge base. Features include AI-powered conversations using Convex Agents, document embeddings with RAG, human handoff and auto-resolution workflows, voice support via VAPI, embeddable chat widget, operator dashboard, and team-based workspaces. Includes secure API key storage with AWS Secrets Manager, authentication and subscriptions via Clerk, multi-model AI support (OpenAI, Anthropic, Grok), error tracking with Sentry, and a monorepo architecture using Turborepo. Developed with Next.js 15, React 19, Tailwind v4, shadcn/ui, and production-ready deployment.",
   },
 
   {

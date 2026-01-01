@@ -35,6 +35,7 @@ const Skills = () => {
           Web
         </motion.div>
         <SkillWraper name={"React Native"} x={"4vw"} y={"-20vw"} />
+        <SkillWraper name={"AI Integration"} x={"-5vw"} y={"-25vw"} />
         <SkillWraper name={"Nest.js"} x={"11vw"} y={"-14vw"} />
         <SkillWraper name={"Python"} x={"17vw"} y={"-7vw"} />
         <SkillWraper name={"Next.js"} x={"21vw"} y={"3vw"} />
@@ -43,16 +44,18 @@ const Skills = () => {
         <SkillWraper name={"RTK Query"} x={"0vw"} y={"12vw"} />
         <SkillWraper name={"Redux"} x={"14vw"} y={"10vw"} />
         <SkillWraper name={"AWS Cloud"} x={"0vw"} y={"19vw"} />
-        <SkillWraper name={"Fastify"} x={"0vw"} y={"-12vw"} />
+        <SkillWraper name={"tRPC"} x={"0vw"} y={"-12vw"} />
         <SkillWraper name={"React.js"} x={"-10vw"} y={"-15vw"} />
         <SkillWraper name={"Web Sockets"} x={"35vw"} y={"-5vw"} />
         <SkillWraper name={"Node.js"} x={"-22vw"} y={"-10vw"} />
-        <SkillWraper name={"Microservices"} x={"-20vw"} y={"-19vw"} />
-        <SkillWraper name={"MongoDB"} x={"-36vw"} y={"0vw"} />
+        <SkillWraper name={"Drizzle ORM"} x={"-20vw"} y={"-19vw"} />
+        <SkillWraper name={"Prisma ORM"} x={"-36vw"} y={"0vw"} />
         <SkillWraper name={"MongoDB"} x={"36vw"} y={"5vw"} />
         <SkillWraper name={"PostgreSQL"} x={"24vw"} y={"-14vw"} />
         <SkillWraper name={"JavaScript"} x={"-25vw"} y={"14vw"} />
         <SkillWraper name={"TypeScript"} x={"25vw"} y={"14vw"} />
+        <SkillWraper name={"Neon"} x={"-14vw"} y={"23vw"} />
+        <SkillWraper name={"Convex"} x={"15vw"} y={"23vw"} />
       </div>
     </>
   );
