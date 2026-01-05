@@ -5,17 +5,20 @@ const IndexPagePic =
 const AboutPageDp =
   "https://res.cloudinary.com/hamzanafasat/image/upload/v1767246947/portfolio%20website/DevImage_ozuegx.jpg";
 const ProfileText_1 =
-  "Hey everyone! I am Hamza Nafasat, a Full Stack Developer. I love making website's look cool and work well. I am expert in HTML, SASS, Tailwind, JavaScript, React, for creating amazing sites.";
+  "I’m Hamza Nafasat, a senior full-stack developer specializing in building high-quality, responsive, and scalable web applications. I design modern front-end experiences using HTML, SASS, Tailwind CSS, JavaScript, and React, with a strong focus on performance, usability, and clean architecture.";
+
 const ProfileText_2 =
-  "But coding's just half of the story! I'm also a good problem solver!. My knowledge thirst keeps me exploring new skills, like Node.js, Express, MongoDB";
+  "I approach development as a problem-solving discipline, translating business requirements into reliable technical solutions. My experience includes designing and implementing scalable back-end systems using Node.js, Express, and MongoDB, with an emphasis on maintainability and long-term growth.";
+
 const ProfileText_3 =
-  "Security? My middle name! I build secure logins and protect your info like a personal guard. Basically, I'm your Full-Stack web partner. Let's chat about your project and make something great!";
+  "Security, stability, and scalability are non-negotiable in my work. I implement robust authentication, authorization, and data protection practices to ensure production-grade systems. I operate as a trusted full-stack partner, delivering solutions that are built to scale and engineered to last.";
+
 export { IndexPagePic, AboutPageDp, ProfileText_1, ProfileText_2, ProfileText_3 };
 
 export const SIMPLEOVERVIEW = [
-  { text: "Adapted Skills", num: 30 },
-  { text: "Projects Completed", num: 20 },
-  { text: "Years Of Experience", num: 3 },
+  { text: "Adapted Skills", num: 40 },
+  { text: "Projects Completed", num: 30 },
+  { text: "Years Of Experience", num: 2 },
 ];
 // EDUCATION AND EXPERIENCES
 // =========================
