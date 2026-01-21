@@ -36,16 +36,15 @@ export default function Home() {
 							{/* PROFILE TEXT  */}
 							{/* ============== */}
 							<AnimatedText
-								text={"Turning Your Vision into Reality With Code"}
-								className="!text-6xl  xl:!text-4xl lg:!text-5xl md:!text-5xl
-								sm:!text-3xl xs:!text-2xl !text-left lg:!text-center xs:!text-left "
-							/>
-							<p className="my-4 text-base font-medium lg:text-center md:text-sm sm:text-xs !text-justify">
-								As a full-stack developer, I turn ideas into great websites. Like
-								painting with code, I'm patient and creative. I handle everything to
-								make websites work well and help people. My goal is to make things
-								easy and awesome for everyone!
-							</p>
+  text={"Engineering Secure, Scalable SaaS Products That Last"}
+  className="!text-6xl  xl:!text-4xl lg:!text-5xl md:!text-5xl
+  sm:!text-3xl xs:!text-2xl !text-left lg:!text-center xs:!text-left "
+/>
+
+<p className="my-4 text-base font-medium lg:text-center md:text-sm sm:text-xs !text-justify">
+I help founders and product teams turn complex requirements into reliable SaaS systems. From secure backends and APIs to real-time features and scalable architectures, I build software designed to grow with the business—not break under pressure.
+
+</p>
 							{/* LINKS  */}
 							{/* ====== */}
 							<div className="flex items-center self-start mt-2 lg:self-center">
