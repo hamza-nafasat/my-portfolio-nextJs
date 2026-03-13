@@ -67,7 +67,7 @@ export const FEATUREDPROJECTDATA = [
     link: "https://echo-web-ebon.vercel.app",
     github: "https://github.com/hamza-nafasat/echo",
     image:
-      "https://res.cloudinary.com/hamzanafasat/image/upload/v1767189266/portfolio%20website/echo-banner_qohdeu.png",
+      "https://res.cloudinary.com/hamzanafasat/image/upload/v1773433163/portfolio%20website/echo_banner_ev9b7b.jpg",
     summery:
       "Built a B2B SaaS customer support platform enabling businesses to handle customer conversations through AI chat agents and voice assistance. The system includes a knowledge base powered by RAG, human handoff workflows, team management, and secure subscription billing. Designed for real-world customer support operations at scale.",
   },
@@ -77,7 +77,7 @@ export const FEATUREDPROJECTDATA = [
     link: "https://nodebase-n8n-clone-tau.vercel.app",
     github: "https://github.com/hamza-nafasat/nodebase-n8n-clone.git",
     image:
-      "https://res.cloudinary.com/hamzanafasat/image/upload/v1767186824/portfolio%20website/nodebase-n8n_gtqwhl.png",
+      "https://res.cloudinary.com/hamzanafasat/image/upload/v1773433164/portfolio%20website/nodebase_banner_fekjyi.png",
     summery:
       "Designed and built a scalable SaaS workflow automation platform that allows businesses to automate processes using visual workflows and AI-powered actions. The system supports real-time triggers, secure credential storage, background execution, and detailed execution history. Built with a production-grade SaaS architecture focusing on reliability, security, and extensibility.",
   },
@@ -89,7 +89,7 @@ export const FEATUREDPROJECTDATA = [
     link: "https://meet-ai-agents-amber.vercel.app",
     github: "https://github.com/hamza-nafasat/meet-ai-agents.git",
     image:
-      "https://res.cloudinary.com/hamzanafasat/image/upload/v1767188826/portfolio%20website/meet-ai-agents_jqm1lm.png",
+      "https://res.cloudinary.com/hamzanafasat/image/upload/v1773433163/portfolio%20website/meet-ai-agents_rpggfu.jpg",
     summery:
       "Developed a SaaS video conferencing platform with real-time meetings and AI-powered post-call intelligence. The system generates transcripts, summaries, and contextual AI chat based on meeting data. Built to support authenticated users, subscriptions, and background processing workflows in a production environment.",
   },
