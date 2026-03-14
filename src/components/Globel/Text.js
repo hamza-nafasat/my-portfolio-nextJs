@@ -4,7 +4,7 @@ const IndexPagePic =
 //   "https://res.cloudinary.com/hamzanafasat/image/upload/v1733300985/portfolio%20website/whmqwhswgrap4enqiwko.jpg";
 const AboutPageDp =
   // "https://res.cloudinary.com/hamzanafasat/image/upload/v1767246947/portfolio%20website/DevImage_ozuegx.jpg";
-  "https://res.cloudinary.com/hamzanafasat/image/upload/v1773448971/portfolio%20website/profile4_3_dwao43.jpg"
+  "https://res.cloudinary.com/hamzanafasat/image/upload/v1773449774/portfolio%20website/black-lenthin_xx5dki.jpg"
 const ProfileText_1 =
   "I’m Hamza Nafasat, a full-stack SaaS developer specializing in building secure, scalable, and production-ready web applications. I design and engineer SaaS platforms that handle real users, real data, and real business constraints—not experimental prototypes.";
 
